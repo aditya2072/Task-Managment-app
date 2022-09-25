@@ -1,7 +1,7 @@
 /** @format */
 
 const todos = document.querySelectorAll('.todo')
-const all_status = document.querySelectorAll('.vContainer')
+const all_Container = document.querySelectorAll('.vContainer')
 let draggableTodo = null
 
 todos.forEach((todo) => {
@@ -25,7 +25,7 @@ function dragEnd() {
 	console.log('dragEnd')
 }
 
-all_status.forEach((vContainer) => {
+all_Container.forEach((vContainer) => {
 	vContainer.addEventListener('dragover', dragOver)
 	vContainer.addEventListener('dragenter', dragEnter)
 	vContainer.addEventListener('dragleave', dragLeave)

@@ -24,7 +24,7 @@ body {
 
 .vContainer {
 	width: 25%;
-	background-color: #ECC5FB;
+	background-color: #ecc5fb;
 	position: relative;
 	padding: 60px 1rem 0.5rem;
 	border-radius: 1rem;
@@ -39,7 +39,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #F9F2ED;
+	background-color: #f9f2ed;
 	color: blueviolet;
 	margin: 0;
 	width: 80%;
@@ -59,10 +59,9 @@ body {
 	margin: 0.5rem 0;
 	border-radius: 4px;
 	cursor: grab;
-	border: 0.5rem outset #FF7878;
+	border: 0.5rem outset #ff7878;
 	margin-top: 1rem;
 }
-
 
 .todo {
 	display: flex;
